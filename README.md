@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/kaimallea/isMobile.png)](https://travis-ci.org/kohlmannj/IsMobile)
-[![Node dependencies status](https://david-dm.org/kaimallea/isMobile.png)](https://david-dm.org/kohlmannj/IsMobile)
+[![Build Status](https://travis-ci.org/kohlmannj/is-mobile.png)](https://travis-ci.org/kohlmannj/is-mobile)
+[![Node dependencies status](https://david-dm.org/kaimallea/isMobile.png)](https://david-dm.org/kohlmannj/is-mobile)
 
 # is-mobile
 

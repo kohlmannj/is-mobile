@@ -1,7 +1,5 @@
 language: node_js
+yarn: true
 node_js:
-  - "0.11"
-before_script:
-  - npm install -g grunt-cli
-  - npm install grunt grunt-contrib-jasmine grunt-contrib-jshint grunt-contrib-uglify
-script: grunt -v
+  - "8"
+script: yarn prepublish
