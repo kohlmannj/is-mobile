@@ -1,4 +1,4 @@
-import IsMobile from '../src/IsMobile';
+import IsMobile from '../src/is-mobile';
 
 describe('Android', function() {
   var mobile;
