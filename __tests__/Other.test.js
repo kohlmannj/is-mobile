@@ -1,4 +1,4 @@
-import IsMobile from '../src';
+import IsMobile from '../src/IsMobile';
 
 describe('Other Mobile Devices', function() {
   var mobile;
