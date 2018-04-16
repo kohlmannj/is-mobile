@@ -1,3 +1,2 @@
-node_modules/
-_SpecRunner.html
-.grunt
+lib
+node_modules
