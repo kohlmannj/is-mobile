@@ -82,7 +82,9 @@ The following properties of the contructed `IsMobile` class will either be `true
 
 ### Installation
 
-`npm install @kohlmannj/is-mobile`
+```bash
+$ npm install @kohlmannj/is-mobile
+```
 
 ### Usage
 
