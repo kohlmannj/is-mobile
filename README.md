@@ -84,9 +84,9 @@ The following properties of the contructed `IsMobile` class will either be `true
 
 `npm install @kohlmannj/is-mobile`
 
-##### Usage
+### Usage
 
-```
+```js
 import IsMobile from '@kohlmannj/is-mobile';
 console.log(new IsMobile(req.headers['user-agent']).any);
 ```
