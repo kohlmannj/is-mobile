@@ -1,5 +1,5 @@
 {
-  "name": "ismobilejs",
+  "name": "@kohlmannj/is-mobile",
   "version": "0.4.1",
   "description": "A simple JS library that detects mobile devices.",
   "keywords": [
@@ -8,21 +8,41 @@
     "mobile devices",
     "useragent"
   ],
-  "homepage": "https://github.com/kaimallea/isMobile",
+  "homepage": "https://github.com/kohlmannj/is-mobile",
   "license": "CC0-1.0",
   "author": {
     "name": "Kai Mallea",
     "email": "kmallea@gmail.com"
   },
+  "maintainers": [
+    "Joseph Kohlmann <kohlmannj@mac.com>"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaimallea/isMobile.git"
+    "url": "https://github.com/kohlmannj/is-mobile.git"
   },
-  "main": "./isMobile",
+  "main": "./lib/IsMobile.js",
+  "module": "./src/IsMobile.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib",
+    "prepublish": "yarn test && yarn build",
+    "test": "jest"
+  },
   "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-contrib-jshint": "0.11.x",
-    "grunt-contrib-uglify": "0.9.x",
-    "grunt-contrib-jasmine": "0.8.x"
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.0"
   }
 }

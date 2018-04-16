@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "standard",
+    "prettier",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "prettier",
+    "jest"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", {
+      "bracketSpacing": true,
+      "printWidth": 100,
+      "singleQuote": true,
+      "tabWidth": 2,
+      "trailingComma": "es5"
+    }],
+    "camelcase": "off"
+  }
+}
