@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/kohlmannj/is-mobile.png)](https://travis-ci.org/kohlmannj/is-mobile)
-[![Node dependencies status](https://david-dm.org/kaimallea/isMobile.png)](https://david-dm.org/kohlmannj/is-mobile)
+[![Node development dependencies status](https://david-dm.org/kohlmannj/is-mobile/dev-status.svg)](https://david-dm.org/kohlmannj/is-mobile)
 
 # is-mobile
 
