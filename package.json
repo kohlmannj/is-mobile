@@ -22,7 +22,6 @@
     "url": "https://github.com/kohlmannj/is-mobile.git"
   },
   "main": "./lib/is-mobile.js",
-  "module": "./src/is-mobile.js",
   "scripts": {
     "build": "babel ./src --out-dir ./lib",
     "prepublishOnly": "yarn test && yarn build",
